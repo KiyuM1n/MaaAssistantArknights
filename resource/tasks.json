@@ -6885,7 +6885,7 @@
         ],
         "next": [
             "Roguelike@MissionFailedFlag2",
-            "Roguelike@Start"
+            "Roguelike@StartExplore"
         ]
     },
     "Roguelike@ChooseDifficulty": {
@@ -6899,7 +6899,7 @@
             71
         ],
         "next": [
-            "Roguelike@Start"
+            "Roguelike@StartExplore"
         ]
     },
     "Roguelike@ChooseOper": {
@@ -7591,7 +7591,7 @@
         ],
         "next": [
             "Roguelike@ChooseDifficulty",
-            "Roguelike@Start",
+            "Roguelike@StartExplore",
             "Roguelike@ExitThenAbandon",
             "Roguelike@Abandon",
             "Roguelike@Main",
@@ -8038,7 +8038,7 @@
             203
         ]
     },
-    "Roguelike@Start": {
+    "Roguelike@StartExplore": {
         "Doc": "base_task",
         "template": "empty.png",
         "action": "ClickSelf",
@@ -8053,7 +8053,7 @@
         "next": [
             "Roguelike@Recruit1",
             "Roguelike@InitalDrop",
-            "Roguelike@Start"
+            "Roguelike@StartExplore"
         ]
     },
     "Roguelike@StartAction": {
@@ -8188,7 +8188,7 @@
         "algorithm": "JustReturn",
         "next": [
             "Phantom@Roguelike@ChooseDifficulty",
-            "Phantom@Roguelike@Start",
+            "Phantom@Roguelike@StartExplore",
             "Phantom@Roguelike@StageTrader",
             "Phantom@Roguelike@StageSafeHouse",
             "Phantom@Roguelike@StageEncounter",
@@ -8242,7 +8242,7 @@
     },
     "Phantom@Roguelike@ClickToStartPoint": {
         "next": [
-            "Phantom@Roguelike@Start",
+            "Phantom@Roguelike@StartExplore",
             "Phantom@Roguelike@StageTrader",
             "Phantom@Roguelike@StageSafeHouse",
             "Phantom@Roguelike@StageEncounter",
@@ -8585,7 +8585,7 @@
             "Phantom@Roguelike@StageDreadfulFoe"
         ]
     },
-    "Phantom@Roguelike@Start": {},
+    "Phantom@Roguelike@StartExplore": {},
     "Phantom@Roguelike@Team3": {},
     "Phantom@Roguelike@TeamConfirm": {},
     "Phantom@Roguelike@TodoEnter": {},
@@ -8594,7 +8594,7 @@
         "algorithm": "JustReturn",
         "next": [
             "Mizuki@Roguelike@ChooseDifficulty",
-            "Mizuki@Roguelike@Start",
+            "Mizuki@Roguelike@StartExplore",
             "Mizuki@Roguelike@StageTrader",
             "Mizuki@Roguelike@StageSafeHouse",
             "Mizuki@Roguelike@StageWindAndRain",
@@ -8670,7 +8670,7 @@
     },
     "Mizuki@Roguelike@ClickToStartPoint": {
         "next": [
-            "Mizuki@Roguelike@Start",
+            "Mizuki@Roguelike@StartExplore",
             "Mizuki@Roguelike@StageTrader",
             "Mizuki@Roguelike@StageSafeHouse",
             "Mizuki@Roguelike@StageWindAndRain",
@@ -9627,7 +9627,7 @@
             "Mizuki@Roguelike@CloseCollectionClose"
         ]
     },
-    "Mizuki@Roguelike@Start": {},
+    "Mizuki@Roguelike@StartExplore": {},
     "Mizuki@Roguelike@Team3": {},
     "Mizuki@Roguelike@TeamConfirm": {},
     "Mizuki@Roguelike@TodoEnter": {},
